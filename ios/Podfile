@@ -19,6 +19,9 @@ target 'Movie' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
+  pod 'react-native-video', :path => '../node_modules/react-native-video'
+
+
   target 'MovieTests' do
     inherit! :complete
     # Pods for testing

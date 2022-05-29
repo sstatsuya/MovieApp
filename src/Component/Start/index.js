@@ -4,6 +4,8 @@ import {styles} from './styles';
 import BgImg from '../../assets/img/bg.gif';
 import TitleImg from '../../assets/img/title.gif';
 import {Styles} from '../../Constant/Styles';
+import Toast from 'react-native-toast-message';
+
 
 const Start = props => {
   var titleX = new Animated.Value(-400);

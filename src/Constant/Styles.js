@@ -1,6 +1,10 @@
 export const Colors = {
   colorPrimary: '#200F37',
   colorPurple: '#6644B8',
+  colorPrimaryDark: '#312846',
+  colorPrimaryLight: '#433662',
+  colorGrayTitle: '#999',
+  colorGold: '#f7d930'
 };
 
 export const Styles = {
@@ -50,4 +54,9 @@ export const Styles = {
     borderRightColor: 'transparent',
     borderBottomColor: 'white',
   },
+  whiteBorder:{
+    borderWidth: 1,
+    borderStyle: 'solid',
+    borderColor: 'white'
+  }
 };

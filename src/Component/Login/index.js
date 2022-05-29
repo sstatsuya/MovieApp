@@ -56,7 +56,9 @@ const Login = props => {
         </TouchableOpacity>
       </Animated.View>
 
-      <TouchableOpacity style={[Styles.btn, styles.btn]} activeOpacity={0.4}>
+      <TouchableOpacity style={[Styles.btn, styles.btn]} activeOpacity={0.4} onPress={()=>{
+        props.navigation.navigate("Home",{})
+      }}>
         <Text style={Styles.btnText}>Login</Text>
       </TouchableOpacity>
     </View>
